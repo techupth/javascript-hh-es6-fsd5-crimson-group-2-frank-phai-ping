@@ -1,5 +1,11 @@
-function sum() {
-  // Start coding here !
+function sum(...number) {
+  console.log(number)
+
+function addNumber(acc, crr){
+  return acc + crr;
+  }
+let total = number.reduce(addNumber, 0)
+  return total
 }
 
 let result1 = sum(1, 2, 3, 4, 5, 6, 7, 8);
